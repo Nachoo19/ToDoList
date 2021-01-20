@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div id="mi-div" class="header">
+        <h2>To Do List</h2>
+        <input type="text" id="input-mi-div" 
+        placeholder="Que vas a hacer hoy rey..." 
+        onkeypress="teclaEnter(event)"/>
+        <span onclick="nuevoElemento()" class="addBtn">Añadir</span>
+    </div>
+    <ul id="mi-lista">
+    </ul>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
